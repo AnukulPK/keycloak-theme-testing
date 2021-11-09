@@ -1,0 +1,64 @@
+.login-pf body{
+    background-image: url("../img/test-img.jpg");
+}
+
+.login-pf-page .card-pf {
+    margin: 5vw;
+    float: left;
+    width: 55vw;
+}
+
+div .kc-logo-text {
+    background-image: url("../img/protium.png");
+    background-repeat: no-repeat;
+    height: 11vh;
+    margin:auto;
+    display:none;
+}
+
+.card-pf{
+    border-radius: 2vw;
+    background: #1f2561;
+}
+
+#kc-login{
+background:#808080;
+border-radius: 2vw;
+}
+
+.control-label{
+color:#ffffff;
+}
+
+@media (min-width:768px){
+
+   .login-pf{
+      background: background-image: url("../img/test-img.jpg");
+    }
+}
+
+@media only screen and (max-width: 760px){
+
+    div .kc-logo-text {
+        height: 5vh;
+        text-align:center;
+        margin:auto;
+    }
+
+   .login-pf-page .card-pf{
+       margin:2%;
+   }
+
+   .login-pf-page .card-pf {
+       margin: 5vw;
+       width:90vw;
+   }
+}
+
+@media only screen and (max-width: 1024px){
+ div .kc-logo-text {
+        height: 7vh;
+        text-align:center;
+        margin:auto;
+    }
+ }
